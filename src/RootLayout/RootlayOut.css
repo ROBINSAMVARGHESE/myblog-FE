@@ -1,0 +1,66 @@
+/* Navbar styling */
+.custom-navbar {
+    background-color: #2a9d8f;
+    /* Primary color */
+}
+
+.navbar-brand,
+.nav-link {
+    color: #ffffff;
+    /* White text */
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #e76f51;
+    /* Accent color on hover */
+}
+
+/* Button styling */
+.custom-btn {
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px 16px;
+    margin-left: 8px;
+    border-radius: 5px;
+}
+
+.btn-login {
+    background-color: #264653;
+    /* Dark cyan */
+}
+
+.btn-login:hover {
+    background-color: #165e55;
+    /* Teal hover */
+}
+
+.btn-signup {
+    background-color: #e76f51;
+    /* Orange-red */
+}
+
+.btn-signup:hover {
+    background-color: #e28233;
+    /* Light orange hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .btn-container {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .custom-btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 992px) {
+    .custom-navbar .navbar-collapse {
+        justify-content: flex-end;
+    }
+}

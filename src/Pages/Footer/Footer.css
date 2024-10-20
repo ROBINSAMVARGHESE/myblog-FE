@@ -1,0 +1,32 @@
+/* Footer.css */
+.custom-footer {
+    background-color: #264653; 
+    color: #ffffff; 
+    padding: 20px 0; 
+}
+
+.footer-navbar {
+    justify-content: center; 
+}
+
+.footer-text {
+    margin: 0; 
+    font-size: 18px; 
+}
+
+.footer-links {
+    margin-top: 10px; 
+}
+
+.footer-link {
+    color: #f4a261; 
+    margin: 0 15px; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+}
+
+.footer-link:hover {
+    color: #e76f51; 
+}
+
+  

@@ -1,0 +1,88 @@
+.home-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .home-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .recent-posts, .categories, .call-to-action {
+    margin-bottom: 30px;
+  }
+  
+  .post {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9; 
+  }
+  
+  .post h3 {
+    margin: 0;
+  }
+  
+  .categories ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .categories li {
+    margin: 10px 0;
+  }
+  
+  .category-link {
+    text-decoration: none;
+    color: #1d9c8d; /* Teal color */
+    font-weight: bold;
+  }
+  
+  .category-link:hover {
+    text-decoration: none; /* Underline on hover */
+  }
+  
+  .btn-link {
+    padding: 8px 12px;
+    background-color: #2a9d8f; /* Teal color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block; /* Makes the link look like a button */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  .btn-link:hover {
+    background-color: #264653; /* Darker teal on hover */
+    color: #ffffff;
+  }
+  
+  .call-to-action {
+    text-align: center;
+  }
+  
+.btn-subscribe {
+    background-color: #2a9d8f; 
+    color: #ffffff; 
+    border: none; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    font-size: 16px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.btn-subscribe:hover {
+    background-color: #264653; 
+}
+
+  .home-footer {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  

@@ -1,0 +1,65 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif; 
+    background-color: #f4f4f4; 
+}
+
+/* Blog Page Styles */
+.blog-page {
+    max-width: 400px;
+    margin: 50px auto; 
+    padding: 20px; 
+    background: white; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+/* Input Title Styles */
+.input-title {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+/* Writtingpad Margin */
+.writingpad {
+    margin-bottom: 20px; 
+}
+
+.input-file {
+    margin: 15px 0; /* Space above and below the input */
+}
+
+.image-preview {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 10px; /* Space above the preview */
+    border: 1px solid #ccc; /* Border around the image */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Button Styles */
+.button {
+    width: 100%; 
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #2a9d8f;
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+/* Button Hover Effect */
+.button:hover {
+    background-color: #219b77; 
+}
